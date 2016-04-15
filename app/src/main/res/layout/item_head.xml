@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <FrameLayout android:layout_width="match_parent"
+                 android:clipToPadding="true"
+                 android:layout_height="175dp">
+
+        <RelativeLayout
+            android:id="@+id/mRlGoal"
+            android:layout_width="match_parent"
+            android:layout_height="175dp">
+
+            <com.meiyou.View.DecoratorViewPager
+                android:id="@+id/mVp"
+                android:layout_width="match_parent"
+                android:layout_height="175dp"
+                android:background="#44000000"/>
+
+        </RelativeLayout>
+
+    </FrameLayout>
+
+</LinearLayout>
